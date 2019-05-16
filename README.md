@@ -12,4 +12,6 @@ After cloning the project 'cd' into the project folder and either open the proje
 - in a new terminal window run:
 ### `npm start`
 
-You are now ready to test the PoLP for this application!
+You are now ready to test the PoLP for this application.
+
+Good luck!
