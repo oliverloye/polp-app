@@ -71,10 +71,9 @@ class PersonTable extends Component {
                     <NavLink activeClassName="active" to="/profilepage">
                         <button className="btn btn-primary mb-2">Back</button>
                     </NavLink>,
-                    <table className="table">
-                        {this.head()}
-                        {this.body()}
-                    </table>
+                    <h1>U DID IT!</h1>
+                    <h3>The secret is...</h3>
+                    <p>Batman dies in GoT!!</p>
                 </div>
                 ) : <div>
                         <h2>Access denied!</h2>
@@ -90,3 +89,8 @@ class PersonTable extends Component {
 }
 
 export default PersonTable;
+
+//<table className="table">
+//{this.head()}
+//{this.body()}
+//</table>

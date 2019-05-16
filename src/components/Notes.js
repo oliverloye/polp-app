@@ -8,6 +8,7 @@ class Notes extends Component {
           <h3>Boss notes</h3>
           <ul>
             <li>violererrøde</li>
+            <li>winteriscoming</li>
             <li>jeghaderæblecomputere</li>
             <li>jegelskerkurt</li>
             <li>jordenerflad</li>

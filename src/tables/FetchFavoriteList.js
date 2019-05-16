@@ -36,7 +36,7 @@ class FetchFavoriteList extends Component {
       <div>
         <h2>Favorit chars of all time!</h2>
         {this.mappedList()}
-        <p>But the real MVP is superman - edited by "salesmanager"</p>
+        <p>... but the real MVP is superman - edited by "Sales Manager"</p>
         <NavLink activeClassName="active" to="/profilepage">
           <button className="btn btn-primary">Back</button>
         </NavLink>
