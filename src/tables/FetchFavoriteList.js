@@ -20,7 +20,7 @@ class FetchFavoriteList extends Component {
       .catch(err => console.log(err));
   }
 
-  mappedList() {
+   mappedList() {
     const results = this.state.dataFromServer;
     console.log(results);
     const lis = results.map((rowData, index) => {
@@ -28,15 +28,14 @@ class FetchFavoriteList extends Component {
       return <li key={index}>{rowData.name}</li>;
     });
 
-    return <ul>{lis}</ul>;
+    return <ul>{lis}<li><b>superman</b> is THE best! - edited by "bobby"</li></ul>;
   }
 
   render() {
     return (
       <div>
-        <h2>Favorit chars of all time!</h2>
+        <h2>Favorite character list</h2>
         {this.mappedList()}
-        <p>... but the real MVP is superman - edited by "Sales Manager"</p>
         <NavLink activeClassName="active" to="/profilepage">
           <button className="btn btn-primary">Back</button>
         </NavLink>

@@ -16,7 +16,7 @@ class Notes extends Component {
           <NavLink activeClassName="active" to="/profilepage">
               <button className="btn btn-primary">Back</button>
           </NavLink>
-          console.log("hint: https://bcrypt-generator.com/");
+          {console.log("hint: https://bcrypt-generator.com/")}
         </div>
     );
   }

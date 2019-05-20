@@ -147,7 +147,7 @@ const PageViewNav = ({match}) => {
                     </div>
                 ) : null}
                 {facade.getProfile().roles.includes("user") ? (
-                <li><NavLink exact to="/getfavorite">The best movie characters in the world</NavLink></li>
+                <li><NavLink exact to="/getfavorite">Personal notes - My favorite characters</NavLink></li>
                 ) : null}
                 <li><NavLink exact to="/getdummy">Company employees</NavLink></li>
                 
