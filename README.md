@@ -14,4 +14,7 @@ After cloning the project 'cd' into the project folder ("polp-app") and either o
 
 You are now ready to test the PoLP for this application.
 
+Opgave:
+
+Dit navn er "ib". Du har fået praktikplads 
 Good luck!
