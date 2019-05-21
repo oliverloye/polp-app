@@ -1,6 +1,6 @@
 ### Opgave:
 
-Intro Story:
+Intro Story:  
 Dit navn er ib. Du søger praktikplads og har været til samtale med salgslederen, bobby og sælgeren, kurt fra firmaet ‘Bacefook’. Du får praktikpladsen og skal arbejde under kurt. Dit arbejde vil kun bestå i at hjælpe kurt med at kontakte hans kunder. På din første dag møder du kort virksomhedens chef, jon. Du får tildelt et login af kurt, som ikke tager sikkerhed specielt alvorligt og er halvt demens. Han har derfor fået oprettet et password, som er meget let at huske:
 
 Dit login er:  
