@@ -32,17 +32,17 @@ Forsøg at finde ud af hvad Dans password er, samt notér hvilket privileger de 
 ### Roller:
 
 ib - praktikant  
-Jobbeskrivelse: 
-Hjælpe kurt med at kontakte kunder
+Jobbeskrivelse:  
+- Hjælpe kurt med at kontakte kunder
 
 kurt - sælger  
-Jobbeskrivelse:
+Jobbeskrivelse:  
 - Kontakte kunder
-- Oprette nye kunder, redigere hvis nødvendigt.
+- Oprette nye kunder, redigere hvis nødvendigt
 
 bobby - Salgsleder  
-Jobbeskrivelse:
-- Administrere alle kunder.
+Jobbeskrivelse:  
+- Administrere alle kunder
 
 jon - CEO
 Jobbeskrivelse:  
