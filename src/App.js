@@ -143,12 +143,20 @@ const PageViewNav = ({match}) => {
                     <div>
                     <li><NavLink exact to="/getperson">Board members</NavLink></li>
                     <li><NavLink exact to="/database">Database</NavLink></li>
-                    <li><NavLink exact to="/notes">Notes from boss</NavLink></li>
+                    {facade.getProfile().roles.includes("admin") ? (
+                        <li><NavLink exact to="/notes">Notes</NavLink></li>    
+                    ) : null}
+                    {facade.getProfile().roles.includes("superuser") ? (
+                        <li><NavLink exact to="/notes">Jon's notes</NavLink></li>   
+                    ) : null}
                     </div>
                 ) : null}
-                {facade.getProfile().roles.includes("user") ? (
-                <li><NavLink exact to="/getfavorite">Personal notes - My favorite characters</NavLink></li>
+                {facade.getProfile().roles.includes("superuser") ? (
+                <li><NavLink exact to="/getfavorite">Kurt's personal notes - My favorite characters</NavLink></li>
                 ) : null}
+                {facade.getProfile().roles.includes("user") && !(facade.getProfile().roles.includes("superuser")) ? (
+                    <li><NavLink exact to="/getfavorite">Personal notes - My favorite characters</NavLink></li>
+                    ) : null}
                 <li><NavLink exact to="/getdummy">Company employees</NavLink></li>
                 
             </ul>

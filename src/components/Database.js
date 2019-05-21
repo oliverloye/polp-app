@@ -28,6 +28,10 @@ class Database extends Component {
                 <td>kurt</td>
                 <td>$2a$10$fXISXX8HS1UN5o0clVc6P.LqTxX7YOUifjW/1lHzF9jiflkXybmVa</td>
               </tr>
+              <tr>
+                <td>Dan</td>
+                <td>$2y$12$Pf29VBnBMd.oD0mpB3QsReqo3lhftBqOGwA9SBf/22/ZgJH8u8G5.</td>
+              </tr>
             </tbody>
           </table>
           <NavLink activeClassName="active" to="/profilepage">

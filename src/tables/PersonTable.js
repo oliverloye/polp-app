@@ -70,14 +70,18 @@ class PersonTable extends Component {
                 <div>
                     <NavLink activeClassName="active" to="/profilepage">
                         <button className="btn btn-primary mb-2">Back</button>
-                    </NavLink>,
-                    <h1>U DID IT!</h1>
-                    <h3>The secret is...</h3>
-                    <p>Batman dies in GoT!!</p>
+                    </NavLink>
+                    <h1>Board members</h1>
+                    <ul>
+                        <li>Thorr</li>
+                        <li>jon</li>
+                        <li>Dan</li>
+                        <li>Milla</li>
+                    </ul>
                 </div>
                 ) : <div>
                         <h2>Access denied!</h2>
-                        <p>Only "boss" has access to this page!</p>
+                        <p>Only "jon" has access to this page!</p>
                         <NavLink activeClassName="active" to="/profilepage">
                             <button className="btn btn-primary">Back</button>
                         </NavLink>
