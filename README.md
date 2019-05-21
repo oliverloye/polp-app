@@ -21,9 +21,10 @@ You are now ready to test the PoLP for this application.
 Intro Story:
 Dit navn er ib. Du søger praktikplads og har været til samtale med salgslederen, bobby og sælgeren, kurt fra firmaet ‘Bacefook’. Du får praktikpladsen og skal arbejde under kurt. Dit arbejde vil kun bestå i at hjælpe kurt med kontakte hans kunder. På din første dag møder du hurtigt virksomhedens chef, jon, men han har ikke tid til at hilse på dig.. Du får tildelt et login af kurt, som ikke tager sikkerhed specielt alvorligt og er halvt dement. Han har derfor fået oprettet et password, som er meget let at huske:
 
-Dit login er:
-username: ib
+Dit login er:  
+username: ib  
 password: 1234
+
 
 Forsøg at finde ud af hvad Dans password er, samt notér hvilket privileger de forskellige roller bør have og ikke have.
 
