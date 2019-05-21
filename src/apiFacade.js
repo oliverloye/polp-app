@@ -4,7 +4,10 @@ const URL = require('../package.json').config.url;
 
 function handleHttpErrors(res) {
     if (!res.ok) {
+        alert("WRONG LOGIN CREDENTIALS \n" +
+        "... Gotta love alert boxes!");
         return Promise.reject({status: res.status, fullError: res.json()});
+        
     }
     return res.json();
 }
