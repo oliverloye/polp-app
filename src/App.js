@@ -6,7 +6,7 @@ import FetchFavorite from "./tables/FetchFavoriteList";
 import DummyTableClient from "./tables/DummyDataTableClient";
 import DummyTableRemote from "./tables/DummyDataTableRemote";
 import SwapiTable from "./tables/PersonTable";
-import Employees from "./tables/Employees";
+import Employees from "./tables/Clients";
 import Database from "./components/Database";
 import Notes from "./components/Notes";
 
