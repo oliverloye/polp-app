@@ -186,7 +186,7 @@ const NavMenu = ({match}) => {
 const WelcomeMessage = ({match}) => {
     return (
         <div className="text-center">
-            <h1>Company Name!</h1>
+            <h1>Bacefook</h1>
             <p>
                 Click <NavLink to="/profilepage">here</NavLink> to go to login.
             </p>
