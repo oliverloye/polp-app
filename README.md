@@ -4,17 +4,19 @@ This setup assumes you have node.js install on your computer.
 
 After cloning the project 'cd' into the project folder ("polp-app") and either open the project in your favorite editor and run the following commands or run the commands directly in terminal/cmd/gitbash:
 
-### `npm install`
+#### `npm install`
 
-### `npm run dataserver`
+#### `npm run dataserver`
 - keep it running
 
 - in a new terminal window run:
-### `npm start`
+#### `npm start`
 
 You are now ready to test the PoLP for this application.
 
-Opgave:
+---
+
+### Opgave:
 
 Intro Story:
 Dit navn er ib. Du søger praktikplads og har været til samtale med salgslederen, bobby og sælgeren, kurt fra firmaet ‘Bacefook’. Du får praktikpladsen og skal arbejde under kurt. Dit arbejde vil kun bestå i at hjælpe kurt med kontakte hans kunder. På din første dag møder du hurtigt virksomhedens chef, jon, men han har ikke tid til at hilse på dig.. Du får tildelt et login af kurt, som ikke tager sikkerhed specielt alvorligt og er halvt dement. Han har derfor fået oprettet et password, som er meget let at huske:
@@ -25,7 +27,9 @@ password: 1234
 
 Forsøg at finde ud af hvad Dans password er, samt notér hvilket privileger de forskellige roller bør have og ikke have.
 
-Roller:
+---
+
+### Roller:
 
 ib - praktikant
 Jobbeskrivelse: 
